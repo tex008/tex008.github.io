@@ -1,0 +1,16 @@
+h1 {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: #899878;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: bold;
+  border-radius: 30px;
+}
+
+body {
+  background-color: #f7f7f2;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}
