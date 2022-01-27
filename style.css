@@ -1,16 +1,93 @@
-h1 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: #899878;
-  font-size: 60px;
-  text-align: center;
-  text-decoration: bold;
-  border-radius: 30px;
-}
-
 body {
-  background-color: #f7f7f2;
+  background-color: #e8f0e8;
+  color: #121113;
+  background-image: url("/home/tex/Portfolio_Web/trybe.jpg");
+  position: relative;
 }
 
 p {
   font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: #121113;
+}
+
+h1 {
+  font-family: "Andale Mono", sans-serif;
+  color: #899878;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 1500;
+  border-radius: 50px;
+}
+h2 {
+  color: rgb(54, 85, 54);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  color: rgb(54, 85, 54);
+}
+h4 {
+  font-size: 22px;
+  line-height: 8px;
+  color: #222725a6;
+}
+
+#saiba_mais {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 9px;
+  text-transform: uppercase;
+  background-color: rgb(54, 85, 54);
+  border-radius: 15px;
+  text-decoration: none;
+}
+#name {
+  text-align: center;
+}
+#namelink {
+  text-decoration: none;
+  color: #121113;
+}
+#tex {
+  background-image: "capa_trybe.png";
+}
+
+.softskill {
+  font-size: 23px;
+  font-weight: bold;
+  color: #66324c;
+}
+.dev {
+  font-size: 20px;
+  font-weight: bold;
+  color: #85546ce1;
+}
+.audiovisual {
+  font-size: 20px;
+  font-weight: bold;
+  color: #85546cbb;
+}
+.dance {
+  font-size: 20px;
+  font-weight: bold;
+  color: #a8356dc9;
+}
+.menu {
+  color: #121113;
+  text-decoration-line: none;
+}
+.image {
+  width: 500px;
+}
+
+hr {
+  background-color: rgba(54, 85, 54, 0.329);
+  padding: 3px;
+  border-radius: 30px;
+  border: none;
 }
