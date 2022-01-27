@@ -1,16 +1,92 @@
-h1 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: #899878;
-  font-size: 60px;
-  text-align: center;
-  text-decoration: bold;
-  border-radius: 30px;
+html {
+  background-image: url("https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fbetrybe%2F&psig=AOvVaw1VUXCZwNu1jHdOE5v8DU3_&ust=1643412411098000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjQ1rqK0_UCFQAAAAAdAAAAABAD")
+    no-repeat;
+  position: relative;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
 }
-
 body {
-  background-color: #edf0e8;
+  background-color: #e8f0e8;
+  color: #121113;
 }
 
 p {
   font-family: "Oswald", sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: "Andale Mono", sans-serif;
+  color: #899878;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 1500;
+  border-radius: 50px;
+}
+h2 {
+  color: rgb(54, 85, 54);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  color: rgb(54, 85, 54);
+}
+h4 {
+  font-size: 18px;
+  line-height: 8px;
+  color: #222725a6;
+}
+
+#saiba_mais {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 9px;
+  text-transform: uppercase;
+  background-color: rgb(54, 85, 54);
+  border-radius: 15px;
+  text-decoration: none;
+}
+#name {
+  text-align: center;
+}
+#namelink {
+  text-decoration-line: none;
+}
+#tex {
+  background-image: "capa_trybe.png";
+}
+
+.softskill {
+  font-size: 23px;
+  font-weight: bold;
+  color: #85546c;
+}
+.dev {
+  font-size: 20px;
+  font-weight: bold;
+  color: #85546c;
+}
+.audiovisual {
+  font-size: 20px;
+  font-weight: bold;
+  color: #85546c;
+}
+.dance {
+  font-size: 20px;
+  font-weight: bold;
+  color: #85546c;
+}
+.menu {
+  color: #121113;
+  text-decoration-line: none;
+}
+hr {
+  background-color: rgba(54, 85, 54, 0.329);
+  padding: 3px;
+  border-radius: 30px;
+  border: none;
 }
