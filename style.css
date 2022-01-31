@@ -1,8 +1,10 @@
 body {
-  background-color: #e8f0e8;
+  background-color: #daecda;
   color: #121113;
-  background-image: url("/home/tex/Portfolio_Web/trybe.jpg");
-  position: relative;
+}
+
+*{
+  margin: 0px;
 }
 
 p {
@@ -10,51 +12,115 @@ p {
   font-size: 18px;
   text-align: justify;
   color: #121113;
+  font-weight: 500;
 }
 
 h1 {
-  font-family: "Andale Mono", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #899878;
-  font-size: 60px;
+  font-weight: bold;
+  font-weight: 3000;
+  font-size: 80px;
   text-align: center;
-  font-weight: 1500;
   border-radius: 50px;
 }
+
 h2 {
   color: rgb(54, 85, 54);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-decoration: none;
   font-size: 35px;
 }
+
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 900;
   color: rgb(54, 85, 54);
 }
+
 h4 {
   font-size: 22px;
   line-height: 8px;
   color: #222725a6;
 }
 
+li:nth-child(odd) {
+  font-style: italic;
+}
+
 #saiba_mais {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Monserrat Alternates",sans-serif;
   padding: 9px;
   text-transform: uppercase;
   background-color: rgb(54, 85, 54);
   border-radius: 15px;
   text-decoration: none;
+  
 }
+
 #name {
   text-align: center;
 }
-#namelink {
-  text-decoration: none;
-  color: #121113;
+
+#header {
+  margin: auto;
+  padding: 50px;
+  display: inline-block;
 }
-#tex {
-  background-image: "capa_trybe.png";
+
+#header-content {
+  width: 90%;
+  margin:auto;
+}
+
+
+.description {
+  width: 45%;
+  margin: 30px;
+  display: inline-block;
+}
+
+.description img {
+  position: relative;
+  left: 180px;
+  top:30px;
+}
+
+.description p {
+  font-size: 24px;
+  max-width: 65%;
+}
+
+.image{
+  border-radius:300px;
+  width: 500px;
+  margin: auto;
+  padding: 12px;
+  background-color: rgb(54, 85, 54); ;
+  
+}
+
+.portfolio-menu-buttons{
+  background-color: rgb(54, 85, 54);;
+  padding: 12px;
+  margin:10px;
+  border-radius: 20px;
+  display: inline-block;
+  }
+
+.portfolio-menu-buttons a {
+  color: #121113;
+  text-decoration-line: none;
+}
+
+#portifolio-menu {
+  margin: 0% 0% 0% 37%;
+  padding: 15px;
+}
+
+#habilidades_lista {
+    margin: 0 0 10px 10px;
 }
 
 .softskill {
@@ -62,32 +128,21 @@ h4 {
   font-weight: bold;
   color: #66324c;
 }
+
 .dev {
   font-size: 20px;
   font-weight: bold;
   color: #85546ce1;
 }
+
 .audiovisual {
   font-size: 20px;
   font-weight: bold;
   color: #85546cbb;
 }
+
 .dance {
   font-size: 20px;
   font-weight: bold;
   color: #a8356dc9;
-}
-.menu {
-  color: #121113;
-  text-decoration-line: none;
-}
-.image {
-  width: 500px;
-}
-
-hr {
-  background-color: rgba(54, 85, 54, 0.329);
-  padding: 3px;
-  border-radius: 30px;
-  border: none;
 }
